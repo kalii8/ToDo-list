@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    color: grey;
+    font-size: 200%;
+    font-family: sans-serif;
+    list-style-type: none;
+}
+
+.container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    display: inline-block;
+}
+
+.check {
+    text-decoration-line: line-through;
+}
+.uncheck {
+    text-decoration: none;
+}
+
+.logo-check{
+    background-image: url("../img/check.svg");
+}
+
+.logo-uncheck{
+    background-image: url("../img/uncheck.svg");
+}
+
+
+
